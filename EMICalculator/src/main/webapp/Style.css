@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+body{
+	 margin-top: 200px;
+	background-color:#FFF8DC;
+	text-align: center;
+}
+
+.formDiv{
+	
+	background-color:white;
+	margin-left:200px;
+	margin-right:200px;
+	padding:50px;
+	
+	
+}
+
+h1{
+	margin-left:200px;
+	margin-right:200px;
+	background-color:#008B8B;
+	
+}
