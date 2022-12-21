@@ -1,0 +1,11 @@
+class gradingstudents
+{
+   public static void main(String []args)
+   {
+       int id[]=new int[60];
+	   int marks[]=new int[60];
+	   int grade[]=new int[60];
+	   
+	   
+   }
+}

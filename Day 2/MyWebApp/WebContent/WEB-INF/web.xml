@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>MyWebApp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>helloservlet</servlet-name>
+  <servlet-class>com.demo.servlet.MyHelloServlet</servlet-class>
+  <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>helloservlet</servlet-name>
+  <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>secondservlet</servlet-name>
+  <servlet-class>com.demo.servlet.MyFirstServlet</servlet-class>
+  <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+   <servlet-name>secondservlet</servlet-name>
+   <url-pattern>/first</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>addservlet</servlet-name>
+  <servlet-class>com.demo.servlet.MyAdditionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>addservlet</servlet-name>
+  <url-pattern>/addition</url-pattern>
+  </servlet-mapping>
+</web-app>
